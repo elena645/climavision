@@ -1,0 +1,596 @@
+.clear-fix{clear:both;}
+.container{
+    margin: 0 auto;
+    max-width: 1070px;
+}
+.container-display{
+    margin:0 20px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.full-width {
+  width: 100% !important;
+}
+.full-height {
+  height: 100% !important;
+}
+.no-border {
+  border: none !important;
+}
+/*** Home ***/
+.home{
+    background-image: url('../img/home-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu",sans-serif;
+    height: 450px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+}
+.home-title{
+    /*text-shadow: 2px 0 4px #333333;
+    background: url("http://marquette.edu/_global-images/transparent-background-1px.png") repeat scroll 0 0 transparent;*/
+    background: none repeat scroll 0 0 rgba(21, 50, 82, 0.8);
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.3);
+    margin-top:150px;
+    padding: 15px 3px 15px 15px;
+    color: white;
+    font-size: 45px;
+    display:inline-block;
+}
+.home-subtitle{
+    text-shadow: 2px 0 4px #333333;
+    background: none repeat scroll 0 0 rgba(0,0,0, 0.8);
+    color:#d6a618;
+    font-size: 30px;
+    padding:15px 20px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+/* Colors */
+.text-black {
+  color: #2d3436;
+}
+.text-gray {
+  color: #636e72;
+}
+.text-blue {
+  color: #74b9ff;
+}
+.text-white {
+  color: #fff;
+}
+
+/* background */
+.bg-black {
+  background-color: #2d3436;
+  color: #fff;
+}
+.bg-white {
+  background: #fff;
+  color: #000;
+}
+.bg-blue {
+  background-color: #74b9ff;
+}
+
+/* border */
+.round-3 {
+  border-radius: 3px;
+}
+.round-5 {
+  border-radius: 5px;
+}
+
+/* Text transform */
+.up {
+  text-transform: uppercase;
+}
+
+.lo {
+  text-transform: lowercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+
+/* Line height */
+.lh-10 {
+  line-height: 10px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+.lh-25 {
+  line-height: 25px;
+}
+.lh-30 {
+  line-height: 30px;
+}
+.lh-40 {
+  line-height: 40px;
+}
+.lh-50 {
+  line-height: 50px;
+}
+
+/* Font size */
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-50 {
+  font-size: 50px;
+}
+.font-60 {
+  font-size: 60px;
+}
+.font-70 {
+  font-size: 70px;
+}
+.font-80 {
+  font-size: 80px;
+}
+
+/* Font weight */
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+/* Text align */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.align-mid{
+  vertical-align: middle !important;
+}
+.align-top{
+  vertical-align: top !important;
+}
+.align-sup{
+  vertical-align: super !important;
+}
+
+/* Padding */
+.p0 {
+  padding: 0px !important;
+}
+.p5 {
+  padding: 5px;
+}
+.p10 {
+  padding: 10px;
+}
+.p20 {
+  padding: 20px;
+}
+.p30 {
+  padding: 30px !important;
+}
+.p40 {
+  padding: 40px !important;
+}
+.p50 {
+  padding: 50px !important;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/* Margin */
+.m0 {
+  margin: 0px !important;
+}
+.m5 {
+  margin: 5px;
+}
+.m10 {
+  margin: 10px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.bg-top {
+  background-image:url(../img/home.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-attachment:scroll;
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+.bg-overlay {
+  /*background-color: rgba(248, 247, 216, 0.1);*/
+  background: -webkit-linear-gradient(left, rgba(10,10,10,0) 0%,rgba(10,10,10,0.8) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg-overlay-new {
+  background: rgba(10,10,10,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Menu */
+.menu-top li {
+  display: inline-block;
+}
+.menu-top a {
+  color: #fff !important;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.active, .btn:hover {
+  background: #74b9ff;
+  color: #fff;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.no-decoration a:hover {
+  text-decoration: none;
+}
+.fb-button span {
+  border: 1px solid #74b9ff;
+}
+.fb-button span:hover {
+  background: #2d3436;
+  transition: 1s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+.more-button:hover {
+  background: #2d3436;
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* display */
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.scroll-img {
+  background-image: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 350px;
+  width: 100%;
+}
+
+/* position */
+.relative {
+  position: relative !important;
+}
+.absolute {
+  position: absolute !important;
+}
+
+.test {
+  border-style: dotted !important;
+  border: 3px solid #fff;
+  width: 100%;
+}
+
+/* Contact page */
+.bg-contact {
+  background-image:url(../img/air3.jpg);
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:cover;
+  background-attachment:scroll;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+textarea {
+  resize: none !important;
+  border: 1px solid #dfe6e9;
+  border-radius: 3px;
+}
+input {
+  border: 1px solid #dfe6e9;
+  border-radius: 3px;
+}
+::placeholder {
+  color: #b2bec3;
+}
+
+/* Despre noi page */
+.bg-about {
+  background-image:url(../img/new1.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom center;
+  background-size:cover;
+  background-attachment:scroll;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+/* Gama Servicii page */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #dfe6e9;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #74b9ff;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Portofoliu page */
+.bg-port {
+  background-image:url(../img/new1.jpg);
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:cover;
+  background-attachment:scroll;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.box-ov {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(45, 52, 54, 0.5);
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.box-ov:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
